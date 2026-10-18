@@ -21,7 +21,7 @@ Static site, no build step. Lithuanian at the root, English in `en/`.
 ## Where it lives
 
 - Site: GitHub Pages from the public repository `arislovas/promodo-app` (branch `main`, root folder). Address: https://arislovas.github.io/promodo-app/
-- Installers: GitHub Release `v0.4.1` in the same repository. `versions.json` and the download links point there.
+- Installers: GitHub Release `v0.4.2` in the same repository. `versions.json` and the download links point there.
 - The app's source code stays in the private repository; nothing from it is published here.
 
 ## Preview locally
