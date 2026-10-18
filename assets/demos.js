@@ -39,7 +39,7 @@
   }
   function onVisible(node, fn) {
     if (!('IntersectionObserver' in window)) return fn()
-    var io = new IntersectionObserver(function (es) { if (es[0].isIntersecting) { io.disconnect(); fn() } }, { threshold: 0.3 })
+    var io = new IntersectionObserver(function (es) { if (es[0].isIntersecting) { io.disconnect(); fn() } }, { threshold: 0.05 })
     io.observe(node)
   }
 
