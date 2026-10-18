@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="lt" data-root="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Architektui – kaip sukurti įmonės biblioteką Promodo</title>
+<meta name="description" content="Architekto vadovas: biblioteka, įmonės struktūra, procesai, schemos, IT sistemos, slaptažodis, dalijimasis ir eksportas.">
+<link rel="alternate" hreflang="en" href="en/architects.html">
+<link rel="icon" href="assets/img/icon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Pereiti prie turinio</a>
+<header class="masthead">
+  <a class="brand" href="index.html" aria-label="Promodo pradžia">
+    <svg viewBox="0 0 34 14" aria-hidden="true"><circle cx="4" cy="7" r="3" fill="none" stroke="#3b4fd8" stroke-width="1.6"/><rect x="11" y="2" width="10" height="10" rx="2" fill="#3b4fd8"/><path d="M28 2.5 32.5 7 28 11.5 23.5 7Z" fill="none" stroke="#3b4fd8" stroke-width="1.6"/></svg>
+    Promodo
+  </a>
+  <nav class="nav" aria-label="Puslapiai">
+    <a href="index.html">Apie</a>
+    <a href="atsisiusti.html">Atsisiųsti</a>
+    <a href="gavau-nuoroda.html">Gavau nuorodą</a>
+    <a href="architektui.html" aria-current="page">Architektui</a>
+  </nav>
+  <div class="lang"><span aria-current="true">LT</span><a href="en/architects.html" hreflang="en" lang="en">EN</a></div>
+</header>
+
+<main id="main">
+  <div class="guide-hero" data-bg="geometry">
+    <div class="wrap">
+      <h1>Nuo tuščios bibliotekos iki kolegų ekrano</h1>
+      <p>Eilės tvarka, kaip dirba dauguma: pirmiau įmonės struktūra, tada procesai ir schemos, pabaigoje dalijimasis. BPMN čia nemokome – tik kur kas yra Promodo.</p>
+      <p class="guide-meta">Architekto vadovas.</p>
+    </div>
+  </div>
+
+  <div class="manual">
+    <nav class="index" aria-label="Vadovo turinys">
+      <p>Turinys</p>
+      <ol>
+        <li><a href="#pradzia">Įdiegimas ir pradžia</a></li>
+        <li><a href="#biblioteka">Įmonės biblioteka</a></li>
+        <li><a href="#struktura">Įmonės struktūra</a></li>
+        <li><a href="#procesai">Procesai</a></li>
+        <li><a href="#schema">Pirmoji schema</a></li>
+        <li><a href="#laukai">Žingsnio laukai</a></li>
+        <li><a href="#it">IT sistemos</a></li>
+        <li><a href="#bizagi">Iš Bizagi</a></li>
+        <li><a href="#slaptazodis">Architekto slaptažodis</a></li>
+        <li><a href="#dalijimasis">Dalijimasis su kolegomis</a></li>
+        <li><a href="#eksportas">Eksportas</a></li>
+        <li><a href="#apzvalga">Apžvalga ir spragos</a></li>
+        <li><a href="#di">DI asistentas</a></li>
+      </ol>
+    </nav>
+
+    <div>
+      <section class="chapter" id="pradzia" data-bg="spiral">
+        <span class="chapter__no">I</span>
+        <h2>Įdiegimas ir pradžia</h2>
+        <p><a href="atsisiusti.html">Atsisiųskite ir įdiekite</a> Promodo. Programa atsidaro <b>Pradžios</b> ekrane – tą patį mato ir kolegos. Jūsų darbo vieta – <b>Architekto darbo laukas</b>. Pirmą kartą jį atidarius trumpas turas parodys pagrindinius mygtukus.</p>
+        <p>Kalbą keičia <b>LT / EN</b> viršuje. Viskas išsaugoma automatiškai.</p>
+      </section>
+
+      <section class="chapter" id="biblioteka" data-bg="library">
+        <span class="chapter__no">II</span>
+        <h2>Įmonės biblioteka</h2>
+        <p><b>Viena biblioteka – viena įmonė.</b> Biblioteka yra aplankas su visais įmonės procesais, struktūra ir schemomis. Pagal nutylėjimą tai <span class="kbd">Dokumentai/Promodo</span>.</p>
+        <ol>
+          <li>Architekto darbo lauke viršuje kairėje spustelėkite įmonės pavadinimą.</li>
+          <li>Pasirinkite <b>Nauja biblioteka…</b>, įrašykite įmonės pavadinimą.</li>
+          <li>Pradėkite nuo tuščios bibliotekos arba esamos kopijos (kaip šablono).</li>
+          <li>Spustelėkite <b>Pasirinkti vietą ir sukurti</b>.</li>
+        </ol>
+        <p class="note">Jei kolegos dirbs iš bendro aplanko, kurkite biblioteką iškart jame (OneDrive, Google Drive ar tinklo diske).</p>
+        <p>Tarp įmonių persijungiate tame pačiame meniu: <b>Bibliotekos šiame kompiuteryje</b>.</p>
+      </section>
+
+      <section class="chapter" id="struktura" data-bg="org">
+        <span class="chapter__no">III</span>
+        <h2>Įmonės struktūra</h2>
+        <p>Pradėkite nuo jos, nes schemų juostos jungiamos su atsakomybėmis.</p>
+        <ol>
+          <li>Kairėje atidarykite <b>Biblioteka</b> ir skirtuką <b>Įmonės struktūra</b>.</li>
+          <li>Spustelėkite <b>+ Sritis</b> ir sukurkite veiklos sritis (pvz., Pardavimai, Finansai).</li>
+          <li>Kiekvienoje srityje pridėkite atsakomybes (pareigas), pvz., Kasininkas.</li>
+        </ol>
+        <p>Tvarką keičiate tempdami arba per <b>Perkelti į…</b>.</p>
+      </section>
+
+      <section class="chapter" id="procesai" data-bg="library">
+        <span class="chapter__no">IV</span>
+        <h2>Procesai</h2>
+        <ol>
+          <li>Skirtuke <b>Procesai</b> naudokite tas pačias veiklos sritis. Prireikus pridėkite <b>+ Grupė</b>.</li>
+          <li>Spustelėkite <b>+ Procesas</b>. Dešinėje, skiltyje <b>Bendroji proceso informacija</b>, įrašykite aprašymą ir pasirinkite <b>Proceso savininką</b> bei <b>Proceso vadovą</b>.</li>
+          <li>Dukart spustelėkite procesą – atsidarys jo schema. Jei jos dar nėra, Promodo sukurs tuščią.</li>
+        </ol>
+        <p>Kiekvienas procesas turi vieną schemą. Failai laikomi bibliotekos aplanke, išsaugoti nereikia.</p>
+      </section>
+
+      <section class="chapter" id="schema" data-bg="process">
+        <span class="chapter__no">V</span>
+        <h2>Pirmoji schema</h2>
+        <ul>
+          <li><b>Telkinys</b> (pool) – tai procesas, <b>juostos</b> – atsakomybės. Pridėjus juostą Promodo paklaus, kuriai atsakomybei ji skirta.</li>
+          <li>Elementai – kairėje paletėje. Spustelėjus žingsnį šalia atsiranda kitas galimas elementas, dokumentas, duomenų bazė ar IT sistema.</li>
+          <li>Apačioje <b>Patikra</b> rodo BPMN klaidas ir pasiūlo pataisymą. Braižyti ji netrukdo.</li>
+          <li>Rodyklės susipainiojo? Dešiniuoju pelės mygtuku spustelėkite tuščią vietą ir pasirinkite <b>Sutvarkyti rodykles</b>.</li>
+        </ul>
+        <figure class="shot"><img src="assets/img/lt-architect.jpg" alt="Architekto darbo laukas su atidaryta proceso „Kasos uždarymas“ schema." width="2000" height="1210" loading="lazy"><figcaption>Kairėje biblioteka ir paletė, viduryje schema, dešinėje proceso informacija.</figcaption></figure>
+      </section>
+
+      <section class="chapter" id="laukai" data-bg="docs">
+        <span class="chapter__no">VI</span>
+        <h2>Žingsnio laukai</h2>
+        <p>Pažymėkite žingsnį – dešinėje atsiras jo laukai: atsakingas, sistema, dokumentai, trukmė ir <b>Rezultatas</b>. Iš jų sudaromi <b>Proceso aprašas (Excel)</b> ir Word dokumentacija, todėl verta užpildyti.</p>
+      </section>
+
+      <section class="chapter" id="it" data-bg="polyhedron">
+        <span class="chapter__no">VII</span>
+        <h2>IT sistemos</h2>
+        <ol>
+          <li>Skirtuke <b>IT</b> sukurkite sistemas ir jų modulius.</li>
+          <li>Schemoje spustelėkite žingsnį ir pridėkite IT sistemą – ji prisijungs punktyrine linija. Susiekite ją su bibliotekos sistema.</li>
+        </ol>
+        <p>IT sistemos žymimos ArchiMate ženklais. Kur kuri naudojama, rodo <a href="#apzvalga">Apžvalga</a>.</p>
+      </section>
+
+      <section class="chapter" id="bizagi" data-bg="docs">
+        <span class="chapter__no">VIII</span>
+        <h2>Iš Bizagi</h2>
+        <p>Atidarykite Bizagi failą per <b>Atidaryti…</b>: tinka ir .bpm, ir Bizagi eksportuotas .bpmn. Perkeliamas išdėstymas, juostos, elementų tipai, sąlygos ir duomenys.</p>
+        <p>Atidaryta schema su biblioteka automatiškai nesusiejama: telkinį ir juostas susiekite patys (<b>Patikra</b> parodo, ką, ir siūlo <b>Susieti…</b>). Papildomų atributų reikšmės kol kas neperkeliamos.</p>
+      </section>
+
+      <section class="chapter" id="slaptazodis" data-bg="lock">
+        <span class="chapter__no">IX</span>
+        <h2>Architekto slaptažodis</h2>
+        <p>Be jo bet kuris kolega iš bendro aplanko galėtų atidaryti Architekto darbo lauką.</p>
+        <ol>
+          <li>Spustelėkite įmonės pavadinimą ir <b>Nustatyti architekto slaptažodį…</b></li>
+          <li>Išsaugokite <b>atkūrimo kodą</b> – jo prireiks pamiršus slaptažodį.</li>
+        </ol>
+        <p>Kiti gali tik žiūrėti. Savo kompiuteryje galite pažymėti <b>Prisiminti šiame kompiuteryje</b>. Išeidami – <b>Užrakinti architektą</b>.</p>
+      </section>
+
+      <section class="chapter" id="dalijimasis" data-bg="share">
+        <span class="chapter__no">X</span>
+        <h2>Dalijimasis su kolegomis</h2>
+        <p><b>Paprasčiausia:</b> biblioteka laikoma bendrame aplanke, kolegos jį atidaro savo Promodo ir visada mato naujausią versiją. Jiems nusiųskite aplanko nuorodą ir <a href="gavau-nuoroda.html">šį vadovą</a>.</p>
+        <p><b>Kai bendro aplanko nėra:</b> įmonės pavadinimo meniu pasirinkite <b>Paskelbti…</b></p>
+        <ul>
+          <li><b>Išsaugoti paketo failą (.promodo)</b> – vienas failas, kurį galima nusiųsti laišku. Galima <b>apsaugoti slaptažodžiu</b>.</li>
+          <li><b>Atnaujinti bendrą aplanką</b> – tik peržiūrai skirta kopija kitame aplanke.</li>
+          <li>Įrašykite, <b>kas naujo</b>. Kiekvienas paskelbimas gauna versijos numerį ir datą.</li>
+        </ul>
+        <p>Kolegos be Promodo? <b>Žinynas</b> išsaugo visą biblioteką kaip tinklalapį su paieška arba PDF.</p>
+        <p class="quiet">Vienu metu redaguoti turėtų vienas žmogus: du architektai tame pačiame aplanke perrašytų vienas kito pakeitimus.</p>
+      </section>
+
+      <section class="chapter" id="eksportas" data-bg="docs">
+        <span class="chapter__no">XI</span>
+        <h2>Eksportas</h2>
+        <p>Mygtukas <b>Eksportuoti</b> viršuje:</p>
+        <ul>
+          <li><b>Paveikslėliai klientams:</b> PNG (ryškus, 2×), PNG be fono, SVG, vektorinis PDF.</li>
+          <li><b>Dokumentai:</b> Word dokumentacija, Proceso aprašas (Excel).</li>
+          <li><b>BPMN 2.0 failas</b> kitiems įrankiams.</li>
+        </ul>
+        <p>Kiekviename faile – įmonė, versija ir data. Tai išjungiama tame pačiame meniu.</p>
+      </section>
+
+      <section class="chapter" id="apzvalga" data-bg="search">
+        <span class="chapter__no">XII</span>
+        <h2>Apžvalga ir spragos</h2>
+        <p><b>Apžvalga</b> (viršuje arba <span class="kbd">⌘⇧O</span> / <span class="kbd">Ctrl+Shift+O</span>) perskaito visas schemas: žingsniai, procesai, atsakomybės, IT sistemos ir lentelė <b>Procesas × atsakomybė</b>. Skirtukas <b>Spragos</b> rodo nesusietas juostas, procesus be schemos ir nenaudojamus elementus. Viską galima <b>Eksportuoti į Excel</b>.</p>
+      </section>
+
+      <section class="chapter" id="di" data-bg="spiral">
+        <span class="chapter__no">XIII</span>
+        <h2>DI asistentas (nebūtina)</h2>
+        <p>Aprašykite procesą žodžiais arba įkelkite lentos nuotrauką – asistentas nubraižys juodraštį, kurį peržiūrite ir taisote. Taip pat atsako, kaip ką padaryti Promodo.</p>
+        <p>Reikia interneto ir jūsų paties Anthropic rakto: <b>Nustatymai</b> → <b>DI asistentas</b>. Be jo visa kita veikia.</p>
+      </section>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__links">
+      <a href="index.html">Apie</a>
+      <a href="atsisiusti.html">Atsisiųsti</a>
+      <a href="gavau-nuoroda.html">Gavau nuorodą</a>
+      <a href="en/architects.html" hreflang="en">English</a>
+    </div>
+    <p style="margin:0">Kontaktai: <a href="mailto:araslabeckas@gmail.com">araslabeckas@gmail.com</a></p>
+  </div>
+  <p class="footer__meta">Promodo 0.4.1. Nemokama atsisiųsti. Mac ir Windows, lietuvių ir anglų kalbomis.</p>
+</footer>
+<script src="assets/site.js" defer></script>
+</body>
+</html>

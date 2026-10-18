@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>For architects – building a company library in Promodo</title>
+<meta name="description" content="Architect’s guide: library, company structure, processes, diagrams, IT systems, password, sharing and export.">
+<link rel="alternate" hreflang="lt" href="../architektui.html">
+<link rel="icon" href="../assets/img/icon.png">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+  <a class="brand" href="index.html" aria-label="Promodo home">
+    <svg viewBox="0 0 34 14" aria-hidden="true"><circle cx="4" cy="7" r="3" fill="none" stroke="#3b4fd8" stroke-width="1.6"/><rect x="11" y="2" width="10" height="10" rx="2" fill="#3b4fd8"/><path d="M28 2.5 32.5 7 28 11.5 23.5 7Z" fill="none" stroke="#3b4fd8" stroke-width="1.6"/></svg>
+    Promodo
+  </a>
+  <nav class="nav" aria-label="Pages">
+    <a href="index.html">About</a>
+    <a href="download.html">Download</a>
+    <a href="viewers.html">I got a link</a>
+    <a href="architects.html" aria-current="page">For architects</a>
+  </nav>
+  <div class="lang"><a href="../architektui.html" hreflang="lt" lang="lt">LT</a><span aria-current="true">EN</span></div>
+</header>
+
+<main id="main">
+  <div class="guide-hero" data-bg="geometry">
+    <div class="wrap">
+      <h1>From an empty library to your colleagues’ screens</h1>
+      <p>In the order most people work: company structure first, then processes and diagrams, sharing last. This guide doesn’t teach BPMN – only where things are in Promodo.</p>
+      <p class="guide-meta">Architect’s guide.</p>
+    </div>
+  </div>
+
+  <div class="manual">
+    <nav class="index" aria-label="Contents">
+      <p>Contents</p>
+      <ol>
+        <li><a href="#start">Install and start</a></li>
+        <li><a href="#library">Company library</a></li>
+        <li><a href="#structure">Company structure</a></li>
+        <li><a href="#processes">Processes</a></li>
+        <li><a href="#diagram">Your first diagram</a></li>
+        <li><a href="#fields">Step fields</a></li>
+        <li><a href="#it">IT systems</a></li>
+        <li><a href="#bizagi">Coming from Bizagi</a></li>
+        <li><a href="#password">Architect password</a></li>
+        <li><a href="#sharing">Sharing with colleagues</a></li>
+        <li><a href="#export">Export</a></li>
+        <li><a href="#overview">Overview and gaps</a></li>
+        <li><a href="#ai">AI assistant</a></li>
+      </ol>
+    </nav>
+
+    <div>
+      <section class="chapter" id="start" data-bg="spiral">
+        <span class="chapter__no">I</span>
+        <h2>Install and start</h2>
+        <p><a href="download.html">Download and install</a> Promodo. It opens on <b>Home</b> – the same screen your colleagues see. Your place is the <b>Architect’s workspace</b>. The first time you open it, a short tour shows the main buttons.</p>
+        <p><b>LT / EN</b> at the top switches the language. Everything is saved automatically.</p>
+      </section>
+
+      <section class="chapter" id="library" data-bg="library">
+        <span class="chapter__no">II</span>
+        <h2>Company library</h2>
+        <p><b>One library is one company.</b> A library is a folder with all of a company’s processes, structure and diagrams. By default it is <span class="kbd">Documents/Promodo</span>.</p>
+        <ol>
+          <li>In the Architect’s workspace, click the company name at the top left.</li>
+          <li>Choose <b>New library…</b> and type the company name.</li>
+          <li>Start with an empty library, or a copy of an existing one (as a template).</li>
+          <li>Click <b>Choose a place and create</b>.</li>
+        </ol>
+        <p class="note">If colleagues will work from a shared folder, create the library there right away (OneDrive, Google Drive or a network drive).</p>
+        <p>Switch between companies in the same menu, under <b>Libraries on this computer</b>.</p>
+      </section>
+
+      <section class="chapter" id="structure" data-bg="org">
+        <span class="chapter__no">III</span>
+        <h2>Company structure</h2>
+        <p>Start here, because diagram lanes are linked to responsibilities.</p>
+        <ol>
+          <li>On the left, open <b>Library</b> and the <b>Company structure</b> tab.</li>
+          <li>Click <b>+ Function</b> and add the company’s functions (for example Sales, Finance).</li>
+          <li>Add the responsibilities (roles) in each function, for example Cashier.</li>
+        </ol>
+        <p>Reorder by dragging, or with <b>Move to…</b>.</p>
+      </section>
+
+      <section class="chapter" id="processes" data-bg="library">
+        <span class="chapter__no">IV</span>
+        <h2>Processes</h2>
+        <ol>
+          <li>The <b>Processes</b> tab uses the same functions. Add a <b>+ Group</b> if you need one.</li>
+          <li>Click <b>+ Process</b>. On the right, under <b>General process information</b>, write the description and choose the <b>Process owner</b> and <b>Process manager</b>.</li>
+          <li>Double-click the process to open its diagram. If it has none yet, Promodo creates a blank one.</li>
+        </ol>
+        <p>Every process has one diagram. Files are kept in the library folder; there’s nothing to save.</p>
+      </section>
+
+      <section class="chapter" id="diagram" data-bg="process">
+        <span class="chapter__no">V</span>
+        <h2>Your first diagram</h2>
+        <ul>
+          <li>The <b>pool</b> is the process, <b>lanes</b> are responsibilities. When you add a lane, Promodo asks which responsibility it is for.</li>
+          <li>Elements are in the palette on the left. Click a step to add the next element, a document, a database or an IT system right next to it.</li>
+          <li><b>Check</b> at the bottom shows BPMN mistakes and offers a fix. It never stops you drawing.</li>
+          <li>Arrows tangled? Right-click an empty spot and choose <b>Tidy up arrows</b>.</li>
+        </ul>
+        <figure class="shot"><img src="../assets/img/en-architect.jpg" alt="The Architect’s workspace with the “Kasos uždarymas” diagram open." width="2000" height="1210" loading="lazy"><figcaption>Library and palette on the left, the diagram in the middle, process information on the right.</figcaption></figure>
+      </section>
+
+      <section class="chapter" id="fields" data-bg="docs">
+        <span class="chapter__no">VI</span>
+        <h2>Step fields</h2>
+        <p>Select a step and its fields appear on the right: responsible, system, documents, duration and <b>Result</b>. The <b>Process description (Excel)</b> and Word documentation are built from them, so they’re worth filling in.</p>
+      </section>
+
+      <section class="chapter" id="it" data-bg="polyhedron">
+        <span class="chapter__no">VII</span>
+        <h2>IT systems</h2>
+        <ol>
+          <li>In the <b>IT</b> tab, add systems and their modules.</li>
+          <li>In a diagram, click a step and add an IT system – it connects with a dotted line. Link it to the system in the library.</li>
+        </ol>
+        <p>IT systems use ArchiMate notation. The <a href="#overview">Overview</a> shows where each one is used.</p>
+      </section>
+
+      <section class="chapter" id="bizagi" data-bg="docs">
+        <span class="chapter__no">VIII</span>
+        <h2>Coming from Bizagi</h2>
+        <p>Open a Bizagi file with <b>Open…</b>: both .bpm and a .bpmn exported from Bizagi work. Layout, lanes, element types, conditions and data are carried over.</p>
+        <p>An opened diagram isn’t linked to the library automatically: link the pool and lanes yourself (<b>Check</b> lists them and offers <b>Link…</b>). Extended-attribute values aren’t imported yet.</p>
+      </section>
+
+      <section class="chapter" id="password" data-bg="lock">
+        <span class="chapter__no">IX</span>
+        <h2>Architect password</h2>
+        <p>Without one, any colleague using the shared folder could open the Architect’s workspace.</p>
+        <ol>
+          <li>Click the company name, then <b>Set architect password…</b></li>
+          <li>Keep the <b>recovery code</b> – you need it if you forget the password.</li>
+        </ol>
+        <p>Everyone else can only view. On your own computer you can tick <b>Remember on this computer</b>. When you leave, <b>Lock Architect</b>.</p>
+      </section>
+
+      <section class="chapter" id="sharing" data-bg="share">
+        <span class="chapter__no">X</span>
+        <h2>Sharing with colleagues</h2>
+        <p><b>The simple way:</b> keep the library in a shared folder. Colleagues open it in their Promodo and always see the latest version. Send them the folder link and <a href="viewers.html">this guide</a>.</p>
+        <p><b>Without a shared folder:</b> in the company name menu, choose <b>Publish…</b></p>
+        <ul>
+          <li><b>Save a package file (.promodo)</b> – one file you can send by email. You can <b>protect it with a password</b>.</li>
+          <li><b>Update a shared folder</b> – a view-only copy in another folder.</li>
+          <li>Write <b>what’s new</b>. Every publish gets a version number and a date.</li>
+        </ul>
+        <p>Colleagues without Promodo? The <b>Handbook</b> saves the whole library as a searchable web page or a PDF.</p>
+        <p class="quiet">Only one person should edit at a time: two architects in the same folder would overwrite each other’s changes.</p>
+      </section>
+
+      <section class="chapter" id="export" data-bg="docs">
+        <span class="chapter__no">XI</span>
+        <h2>Export</h2>
+        <p>The <b>Export</b> button at the top:</p>
+        <ul>
+          <li><b>Images for clients:</b> PNG (crisp, 2×), PNG with transparent background, SVG, vector PDF.</li>
+          <li><b>Documents:</b> Word documentation, Process description (Excel).</li>
+          <li><b>BPMN 2.0 file</b> for other tools.</li>
+        </ul>
+        <p>Every file carries company, version and date. You can switch that off in the same menu.</p>
+      </section>
+
+      <section class="chapter" id="overview" data-bg="search">
+        <span class="chapter__no">XII</span>
+        <h2>Overview and gaps</h2>
+        <p><b>Overview</b> (at the top, or <span class="kbd">⌘⇧O</span> / <span class="kbd">Ctrl+Shift+O</span>) reads every diagram: steps, processes, responsibilities, IT systems and a <b>Process × responsibility</b> table. The <b>Gaps</b> tab shows unlinked lanes, processes without a diagram and unused items. Everything can be exported with <b>Export to Excel</b>.</p>
+      </section>
+
+      <section class="chapter" id="ai" data-bg="spiral">
+        <span class="chapter__no">XIII</span>
+        <h2>AI assistant (optional)</h2>
+        <p>Describe a process in words or add a photo of a whiteboard – the assistant draws a draft for you to review and fix. It also answers how-to questions about Promodo.</p>
+        <p>It needs the internet and your own Anthropic key: <b>Settings</b> → <b>AI assistant</b>. Everything else works without it.</p>
+      </section>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__links">
+      <a href="index.html">About</a>
+      <a href="download.html">Download</a>
+      <a href="viewers.html">I got a link</a>
+      <a href="../architektui.html" hreflang="lt">Lietuviškai</a>
+    </div>
+    <p style="margin:0">Contact: <a href="mailto:araslabeckas@gmail.com">araslabeckas@gmail.com</a></p>
+  </div>
+  <p class="footer__meta">Promodo 0.4.1. Free to download. Mac and Windows, in Lithuanian and English.</p>
+</footer>
+<script src="../assets/site.js" defer></script>
+</body>
+</html>

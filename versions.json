@@ -1,0 +1,24 @@
+{
+  "version": "0.4.1",
+  "date": "2026-10-16",
+  "files": {
+    "mac-arm64": {
+      "name": "Promodo-0.4.1-arm64.dmg",
+      "size": 143219522,
+      "sha256": "2578bdf44df4da5f0d7b88bd859ef9f68ea67b75178cd5446d0ac17c46622744",
+      "url": "https://github.com/arislovas/promodo-app/releases/download/v0.4.1/Promodo-0.4.1-arm64.dmg"
+    },
+    "mac-x64": {
+      "name": "Promodo-0.4.1-x64.dmg",
+      "size": 149617487,
+      "sha256": "6c2549ee7c48f27668aa9f34e19438f63f6834a02e09b2a4c18ea934c22bf612",
+      "url": "https://github.com/arislovas/promodo-app/releases/download/v0.4.1/Promodo-0.4.1-x64.dmg"
+    },
+    "win": {
+      "name": "Promodo-0.4.1-setup.exe",
+      "size": 237840191,
+      "sha256": "1917f1773a9ed417d5130374dc20208ca0d3c5a7a78b3bc65582f154998bcc3e",
+      "url": "https://github.com/arislovas/promodo-app/releases/download/v0.4.1/Promodo-0.4.1-setup.exe"
+    }
+  }
+}

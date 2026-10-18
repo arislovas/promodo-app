@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="lt" data-root="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Promodo – įmonės procesai, kuriuos supranta visi</title>
+<meta name="description" content="Promodo – programa Mac ir Windows kompiuteriams. Vienas žmogus braižo įmonės procesus ir struktūrą, visi kiti randa, kas ką daro. Veikia be interneto. Nemokama atsisiųsti.">
+<link rel="alternate" hreflang="en" href="en/index.html">
+<link rel="icon" href="assets/img/icon.png">
+<link rel="preload" href="assets/fonts/bricolage-grotesque-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Pereiti prie turinio</a>
+<header class="masthead">
+  <a class="brand" href="index.html" aria-label="Promodo pradžia">
+    <svg viewBox="0 0 34 14" aria-hidden="true"><circle cx="4" cy="7" r="3" fill="none" stroke="#3b4fd8" stroke-width="1.6"/><rect x="11" y="2" width="10" height="10" rx="2" fill="#3b4fd8"/><path d="M28 2.5 32.5 7 28 11.5 23.5 7Z" fill="none" stroke="#3b4fd8" stroke-width="1.6"/></svg>
+    Promodo
+  </a>
+  <nav class="nav" aria-label="Puslapiai">
+    <a href="index.html" aria-current="page">Apie</a>
+    <a href="atsisiusti.html">Atsisiųsti</a>
+    <a href="gavau-nuoroda.html">Gavau nuorodą</a>
+    <a href="architektui.html">Architektui</a>
+  </nav>
+  <div class="lang"><span aria-current="true">LT</span><a href="en/index.html" hreflang="en" lang="en">EN</a></div>
+</header>
+
+<nav class="rail" aria-label="Šio puslapio dalys">
+  <ol>
+    <li><a href="#pradzia"><span>Pradžia</span></a></li>
+    <li><a href="#kam"><span>Kam skirta</span></a></li>
+    <li><a href="#mastas"><span>Visa įmonė</span></a></li>
+    <li><a href="#braizyti"><span>Braižyti</span></a></li>
+    <li><a href="#struktura"><span>Struktūra</span></a></li>
+    <li><a href="#dalintis"><span>Dalintis</span></a></li>
+    <li><a href="#rasti"><span>Rasti</span></a></li>
+    <li><a href="#eksportas"><span>Eksportas</span></a></li>
+    <li><a href="#bizagi"><span>Iš Bizagi</span></a></li>
+    <li><a href="#atsisiusti"><span>Atsisiųsti</span></a></li>
+  </ol>
+  <span class="rail__token" aria-hidden="true"></span>
+</nav>
+
+<main id="main">
+  <section class="hero2" id="pradzia" data-bg="geometry">
+    <div class="hero2__grid">
+      <div class="hero2__words">
+        <h1>Įmonės procesai, kuriuos supranta visi</h1>
+        <p class="hero2__sub">Vienas žmogus braižo procesus ir įmonės struktūrą. Visi kiti atsidaro ir randa, kas ką daro. Programa Mac ir Windows kompiuteriams, veikia be interneto, nemokama.</p>
+        <div class="keys">
+          <a class="key" data-file="mac-arm64" href="https://github.com/arislovas/promodo-app/releases/download/v0.4.1/Promodo-0.4.1-arm64.dmg"><span class="key__os">Mac, Apple procesorius</span><span class="key__meta">0.4.1, 143 MB</span></a>
+          <a class="key" data-file="mac-x64" href="https://github.com/arislovas/promodo-app/releases/download/v0.4.1/Promodo-0.4.1-x64.dmg"><span class="key__os">Mac, Intel procesorius</span><span class="key__meta">0.4.1, 150 MB</span></a>
+          <a class="key" data-file="win" href="https://github.com/arislovas/promodo-app/releases/download/v0.4.1/Promodo-0.4.1-setup.exe"><span class="key__os">Windows</span><span class="key__meta">0.4.1, 238 MB</span></a>
+        </div>
+        <p class="keys__hint">Kurį Mac? <b>Apple meniu</b> → <b>Apie šį Mac</b>: jei „Lustas“ – Apple M, rinkitės pirmąjį. Pirmą kartą atidarant reikės vieno patvirtinimo – <a href="atsisiusti.html">parodysime kaip</a>.</p>
+      </div>
+
+      <div class="studio" data-demo="studio" data-view="architect">
+        <div class="st-bar">
+          <div class="seg" role="group" aria-label="Kas žiūri">
+            <button type="button" data-mode="architect" aria-pressed="true">Architektas</button>
+            <button type="button" data-mode="colleague" aria-pressed="false">Kolega</button>
+          </div>
+          <label class="st-search"><span class="skip">Informacijos paieška</span>
+            <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="#6f7680" stroke-width="1.5"/><path d="M11 11l3.5 3.5" stroke="#6f7680" stroke-width="1.5" stroke-linecap="round"/></svg>
+            <input type="search" placeholder="Ieškoti: sandėl, sąskaita…" autocomplete="off">
+          </label>
+          <button type="button" class="btn-line" data-tidy>Sutvarkyti rodykles</button>
+          <span class="st-lock"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><rect x="2.5" y="6" width="9" height="7" rx="1.5" fill="none" stroke="#4d535c" stroke-width="1.3"/><path d="M4.5 6V4.5a2.5 2.5 0 0 1 5 0V6" fill="none" stroke="#4d535c" stroke-width="1.3"/></svg>Tik peržiūra</span>
+        </div>
+        <div class="st-canvas">
+          <svg viewBox="0 0 680 380" role="img" aria-label="Proceso „Užsakymo vykdymas“ schema su trimis juostomis: Pardavėjas, Sandėlininkas, Buhalteris. Žingsnius galima tempti."></svg>
+          <span class="st-badge" role="status"></span>
+          <aside class="st-panel" hidden><button type="button" class="st-panel-close" aria-label="Uždaryti">×</button><div class="st-panel__body"></div></aside>
+        </div>
+        <p class="st-hint"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gate" id="kam" data-bg="spiral">
+    <div class="gate__inner">
+      <p class="gate__q">Nuo ko pradėti?</p>
+      <a class="path" href="gavau-nuoroda.html"><span class="path__title">Gavau nuorodą</span><span class="path__sub">Tik peržiūrai. Vadovas atsiuntė aplanką ar failą – per 5 minutes atsidarysite savo įmonės procesus.</span></a>
+      <svg class="gate__mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 4L60 32L32 60L4 32Z"/><path d="M22 32h20M32 22v20" stroke-width="2"/></svg>
+      <a class="path" href="architektui.html"><span class="path__title">Aš rengiu procesus</span><span class="path__sub">Braižote schemas, tvarkote įmonės struktūrą ir dalinatės ja su kolegomis.</span></a>
+    </div>
+  </section>
+
+  <section class="band" id="mastas" data-demo="scale">
+    <div class="band__inner">
+      <h2>Nuo vieno proceso iki visos įmonės</h2>
+      <p class="band__lead">Kiekvienas procesas turi savo schemą, savininką ir vadovą. Kartu su veiklos sritimis ir pareigomis jie sudaro vieną įmonės biblioteką.</p>
+      <div class="seg" role="group" aria-label="Mastas">
+        <button type="button" data-stop aria-pressed="true">Vienas procesas</button>
+        <button type="button" data-stop aria-pressed="false">Veiklos sritis</button>
+        <button type="button" data-stop aria-pressed="false">Visa įmonė</button>
+      </div>
+      <div class="sc-stage" aria-live="polite"></div>
+      <p class="sc-caption"></p>
+      <p class="sc-note">Pavyzdinė įmonė UAB „Kampo krautuvė“, sukurta su Promodo. Tikra įmonė nėra.</p>
+    </div>
+  </section>
+
+  <section class="x" id="braizyti" data-bg-side="left" data-bg="process">
+    <div class="x__inner">
+      <div>
+        <h2><svg class="mark" data-draw viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="11" pathLength="1"/></svg>Braižykite be trukdžių</h2>
+        <p>Programa pažymi BPMN klaidas ir pasiūlo pataisymą, bet niekada nesustabdo braižymo. Rodyklės išeina iš šliuzo kampų ir apeina žingsnius, o „Sutvarkyti rodykles“ perbraižo visą schemą vienu veiksmu.</p>
+        <p>Turite Bizagi failų? Promodo juos atidaro tiesiogiai.</p>
+      </div>
+      <div class="x__demo" data-demo="check">
+        <svg viewBox="0 0 420 140" role="img" aria-label="Schema su dviem problemomis: žingsnis be pavadinimo ir trūkstama pabaiga."></svg>
+        <p class="ck-state" role="status"></p>
+        <ul class="ck-list"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="x" id="struktura" data-bg="org">
+    <div class="x__inner">
+      <div>
+        <h2><svg class="mark" data-draw viewBox="0 0 30 30" aria-hidden="true"><path d="M7 5h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" pathLength="1"/></svg>Visa įmonė vienoje bibliotekoje</h2>
+        <p>Veiklos sritys, pareigos, procesai su savininku ir vadovu, IT sistemos. Juosta schemoje yra pareigos įmonės struktūroje, todėl pavadinimai visur vienodi, o kiekvienas mato, kur jis dalyvauja.</p>
+        <p>Pasirinkite pareigas ir pamatysite jų procesus.</p>
+      </div>
+      <div class="x__demo" data-demo="org">
+        <div class="or-chips" role="group" aria-label="Pareigos"></div>
+        <div class="or-out" aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="x" id="dalintis" data-bg-side="left" data-bg="share">
+    <div class="x__inner">
+      <div>
+        <h2><svg class="mark" data-draw viewBox="0 0 30 30" aria-hidden="true"><path d="M15 3L27 15L15 27L3 15Z" pathLength="1"/></svg>Pasidalinkite – kolegos tik žiūri</h2>
+        <p>Paprasčiausia – bendras aplankas OneDrive ar Google Drive: kolegos visada mato naujausią versiją. Be bendro aplanko užtenka vieno <b>.promodo</b> failo, kurį galima apsaugoti slaptažodžiu.</p>
+        <p>Redaguoti gali tik architektas, žinantis įmonės slaptažodį.</p>
+      </div>
+      <div class="x__demo" data-demo="share">
+        <div class="seg sh-tabs" role="group" aria-label="Kaip dalintis">
+          <button type="button" data-share="folder" aria-pressed="true">Bendras aplankas</button>
+          <button type="button" data-share="file" aria-pressed="false">.promodo failas</button>
+        </div>
+        <svg viewBox="0 0 520 300" role="img" aria-label="Architektas pasidalina, trys kolegos peržiūri."></svg>
+        <p class="sh-note"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="x" id="rasti" data-bg="search">
+    <div class="x__inner">
+      <div>
+        <h2><svg class="mark" data-draw viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="11" pathLength="1"/></svg>Kiekvienas randa savo darbą</h2>
+        <p>Informacijos paieška eina per visus procesus, žingsnius ir pareigas. Kasininkas įrašo „kasa“ ir mato, kur dalyvauja. Paspaudus atsidaro schema.</p>
+        <p>Išbandykite su visais pavyzdinės įmonės žingsniais.</p>
+      </div>
+      <div class="x__demo" data-demo="find">
+        <label class="fd-box"><span class="skip">Informacijos paieška</span>
+          <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="#3b4fd8" stroke-width="1.6"/><path d="M11 11l3.5 3.5" stroke="#3b4fd8" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <input type="search" autocomplete="off" placeholder="Informacijos paieška">
+        </label>
+        <div class="fd-hints"><button type="button" class="chip" data-q="kasa">kasa</button><button type="button" class="chip" data-q="tiekėj">tiekėj</button><button type="button" class="chip" data-q="Buhalteris">Buhalteris</button><button type="button" class="chip" data-q="šaldym">šaldym</button></div>
+        <p class="fd-count" aria-live="polite"></p>
+        <ul class="fd-results"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="x" id="eksportas" data-bg-side="left" data-bg="docs">
+    <div class="x__inner">
+      <div>
+        <h2><svg class="mark" data-draw viewBox="0 0 30 30" aria-hidden="true"><path d="M7 5h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" pathLength="1"/></svg>Viena schema – šeši formatai</h2>
+        <p>Paveikslėliai klientams, vektorinis PDF, Word dokumentacija, Proceso aprašas Excel'yje pagal kliento šabloną ir BPMN 2.0 failas kitiems įrankiams. Kiekviename – įmonė, versija ir data.</p>
+      </div>
+      <div class="x__demo" data-demo="export">
+        <div class="ex-formats" role="group" aria-label="Formatas">
+          <button type="button" class="chip" data-format="png">PNG</button>
+          <button type="button" class="chip" data-format="svg">SVG</button>
+          <button type="button" class="chip" data-format="pdf">PDF</button>
+          <button type="button" class="chip" data-format="docx">Word</button>
+          <button type="button" class="chip" data-format="xlsx">Excel</button>
+          <button type="button" class="chip" data-format="bpmn">BPMN 2.0</button>
+        </div>
+        <div class="ex-view" aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mig" id="bizagi" data-bg-dim data-bg="polyhedron">
+    <div class="mig__inner">
+      <h2><svg class="mark" data-draw viewBox="0 0 30 30" aria-hidden="true"><path d="M15 3L27 15L15 27L3 15Z" pathLength="1"/></svg>Pereinate iš Bizagi?</h2>
+      <p class="quiet">Kas perkeliama, ko kol kas nėra ir kuo Promodo kitoks.</p>
+      <div class="mig__cols">
+        <div class="yes"><h3>Perkeliama</h3><ul><li>.bpm ir .bpmn failai atsidaro tiesiogiai</li><li>Išdėstymas, juostos ir elementų tipai</li><li>Sąlygos, duomenys ir artefaktai</li></ul></div>
+        <div class="not"><h3>Kol kas ne</h3><ul><li>Papildomų atributų reikšmės</li><li>Automatinis susiejimas su biblioteka – susiejate patys</li><li>Procesų simuliacija ir keli redaguojantys vienu metu</li></ul></div>
+        <div class="diff"><h3>Kitaip</h3><ul><li>Veikia Mac ir Windows</li><li>Be interneto ir be paskyrų</li><li>IT sistemos ArchiMate ženklais prie žingsnių</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="close" id="atsisiusti" data-bg="geometry">
+    <div class="close__inner">
+      <div>
+        <h2>Atsisiųskite ir nubraižykite pirmąjį procesą</h2>
+        <p>Nemokama, be paskyros. Kolegoms nusiųskite <a href="gavau-nuoroda.html">šį vadovą</a>, sau – <a href="architektui.html">architekto vadovą</a>.</p>
+      </div>
+      <div class="keys">
+        <a class="key" data-file="mac-arm64" href="https://github.com/arislovas/promodo-app/releases/download/v0.4.1/Promodo-0.4.1-arm64.dmg"><span class="key__os">Mac, Apple</span><span class="key__meta">0.4.1, 143 MB</span></a>
+        <a class="key" data-file="mac-x64" href="https://github.com/arislovas/promodo-app/releases/download/v0.4.1/Promodo-0.4.1-x64.dmg"><span class="key__os">Mac, Intel</span><span class="key__meta">0.4.1, 150 MB</span></a>
+        <a class="key" data-file="win" href="https://github.com/arislovas/promodo-app/releases/download/v0.4.1/Promodo-0.4.1-setup.exe"><span class="key__os">Windows</span><span class="key__meta">0.4.1, 238 MB</span></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__links">
+      <a href="atsisiusti.html">Atsisiųsti</a>
+      <a href="gavau-nuoroda.html">Gavau nuorodą</a>
+      <a href="architektui.html">Architektui</a>
+      <a href="en/index.html" hreflang="en">English</a>
+    </div>
+    <p style="margin:0">Kontaktai: <a href="mailto:araslabeckas@gmail.com">araslabeckas@gmail.com</a></p>
+  </div>
+  <p class="footer__meta">Promodo <span data-version>0.4.1</span>, išleista <span data-date>2026 m. spalio 16 d.</span> Nemokama atsisiųsti.</p>
+</footer>
+<script type="application/json" id="ui-text">{
+  "studio": {
+    "pool": "Užsakymo vykdymas", "lanes": ["Pardavėjas", "Sandėlininkas", "Buhalteris"],
+    "steps": { "a": "Priimti užsakymą", "n": "Pranešti klientui", "b": "Surinkti prekes", "c": "Išsiųsti prekes", "d": "Išrašyti sąskaitą" },
+    "gate": "Prekė yra?", "yes": "taip", "no": "ne",
+    "details": { "a": ["E. parduotuvė", "Užsakymas", "Užsakymas patvirtintas"], "n": ["El. paštas", "–", "Klientas informuotas"], "b": ["Sandėlio sistema", "Surinkimo lapas", "Prekės surinktos"], "c": ["Kurjerių sistema", "Važtaraštis", "Siunta išsiųsta"], "d": ["Apskaitos sistema", "Sąskaita faktūra", "Sąskaita išsiųsta"] },
+    "fields": { "who": "Atsakingas", "it": "IT sistema", "doc": "Dokumentas", "result": "Rezultatas" },
+    "hintArchitect": "Patempkite žingsnį – rodyklės persitvarko. Numeskite kitoje juostoje – pasikeis atsakingas.",
+    "hintColleague": "Kolega gali tik žiūrėti. Paspauskite žingsnį – pamatysite, kas atsakingas ir kuo dirbama.",
+    "tidied": "Rodyklės sutvarkytos"
+  },
+  "scale": {
+    "process": "Kasos uždarymas", "owner": "Savininkas", "manager": "Vadovas", "company": "UAB „Kampo krautuvė“",
+    "stepForms": ["žingsnis", "žingsniai", "žingsnių"], "processForms": ["procesas", "procesai", "procesų"],
+    "clickHint": "paspauskite procesą – atsidarys jo schema",
+    "totals": "12 veiklos sričių · 32 procesai · 204 žingsniai · 40 pareigų. Paspauskite bet kurį procesą.",
+    "captions": ["Vienas procesas – kas ką daro ir kokia tvarka.", "Veiklos sritis – visi jos procesai su savininku, vadovu ir žingsniais.", "Visa įmonė – procesų žemėlapis pagal veiklos sritis."]
+  },
+  "check": { "step1": "Suskaičiuoti kasą", "step2": "Palyginti su ataskaita", "issue1": "Žingsnis be pavadinimo", "issue2": "Trūksta pabaigos įvykio", "fix": "Taisyti", "fixed": "Pataisyta", "problem1": "1 problema", "problems": "{n} problemos", "ok": "Klaidų nėra" },
+  "org": { "count": "„{role}“ dalyvauja {n} procesuose" },
+  "share": { "architect": "Architektas", "colleagues": "Kolegos", "folder": "Bendras aplankas", "file": "Kampo krautuvė.promodo", "noteFolder": "Kolegos atsidaro tą patį aplanką ir visada mato naujausią versiją.", "noteFile": "Vienas failas laiške. Dukart spustelėjus įsidiegia, gali būti apsaugotas slaptažodžiu." },
+  "find": { "start": "kasa", "total": "Pavyzdinėje įmonėje – {n} procesų, žingsnių ir pareigų", "found": "Rasta: {n}", "process": "Procesas", "role": "Pareigos" },
+  "export": { "png": "PNG, 2×", "svg": "SVG, vektorius", "stamp": "UAB „Kampo krautuvė“, 3 versija, 2026-10-16", "owner": "Savininkas", "manager": "Vadovas", "cols": ["Nr.", "Žingsnis", "Atsakingas"] }
+}</script>
+<script src="assets/demo-data.js" defer></script>
+<script src="assets/site.js" defer></script>
+<script src="assets/demos.js" defer></script>
+</body>
+</html>
