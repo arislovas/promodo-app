@@ -1,9 +1,9 @@
 // Promodo site: working demos, no libraries.
-// studio  – a live mini-Promodo: drag steps, arrows re-route; tidy up; search; architect / colleague view.
+// studio  – a live mini-Promodo: drag steps, arrows re-route; tidy up; search; architect / user view.
 // scale   – one process → one function → the whole company (sample data).
 // check   – guided validation: problems are marked and fixed with one click.
 // org     – company structure: pick a role, see its processes.
-// share   – shared folder or .promodo file; colleagues view only.
+// share   – shared folder or .promodo file; users view only.
 // find    – search over every step of the sample company.
 // export  – one diagram, six formats.
 // rail    – the page's own sequence flow: a token marks the section you are reading.

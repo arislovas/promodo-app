@@ -36,7 +36,7 @@
     <li><a href="#share"><span>Share</span></a></li>
     <li><a href="#find"><span>Find</span></a></li>
     <li><a href="#export"><span>Export</span></a></li>
-    <li><a href="#bizagi"><span>From Bizagi</span></a></li>
+    <li><a href="#switch"><span>Switching</span></a></li>
     <li><a href="#download"><span>Download</span></a></li>
   </ol>
   <span class="rail__token" aria-hidden="true"></span>
@@ -47,7 +47,7 @@
     <div class="hero2__grid">
       <div class="hero2__words">
         <h1>Company processes everyone understands</h1>
-        <p class="hero2__sub">One person draws the processes and the company structure. Everyone else opens them and finds who does what. An app for Mac and Windows, works offline, free.</p>
+        <p class="hero2__sub">One person draws the processes and the company structure. Everyone else opens them and finds who does what. A free app for Mac and Windows that works offline.</p>
         <div class="keys">
           <a class="key" data-file="mac-arm64" href="https://github.com/arislovas/promodo-app/releases/download/v0.4.1/Promodo-0.4.1-arm64.dmg"><span class="key__os">Mac, Apple chip</span><span class="key__meta">0.4.1, 143 MB</span></a>
           <a class="key" data-file="mac-x64" href="https://github.com/arislovas/promodo-app/releases/download/v0.4.1/Promodo-0.4.1-x64.dmg"><span class="key__os">Mac, Intel chip</span><span class="key__meta">0.4.1, 150 MB</span></a>
@@ -60,7 +60,7 @@
         <div class="st-bar">
           <div class="seg" role="group" aria-label="Who is looking">
             <button type="button" data-mode="architect" aria-pressed="true">Architect</button>
-            <button type="button" data-mode="colleague" aria-pressed="false">Colleague</button>
+            <button type="button" data-mode="colleague" aria-pressed="false">User</button>
           </div>
           <label class="st-search"><span class="skip">Find information</span>
             <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="#6f7680" stroke-width="1.5"/><path d="M11 11l3.5 3.5" stroke="#6f7680" stroke-width="1.5" stroke-linecap="round"/></svg>
@@ -82,9 +82,9 @@
   <section class="gate" id="who" data-bg="spiral">
     <div class="gate__inner">
       <p class="gate__q">Where to start?</p>
-      <a class="path" href="viewers.html"><span class="path__title">I got a link</span><span class="path__sub">View only. Your manager sent you a folder or a file – you’ll have your company’s processes open in 5 minutes.</span></a>
+      <a class="path" href="viewers.html"><span class="path__title">I got a link</span><span class="path__sub">View only. Your manager sent you a folder or a file. In 5 minutes you’ll have your company’s processes open.</span></a>
       <svg class="gate__mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 4L60 32L32 60L4 32Z"/><path d="M22 32h20M32 22v20" stroke-width="2"/></svg>
-      <a class="path" href="architects.html"><span class="path__title">I build processes</span><span class="path__sub">You draw the diagrams, keep the company structure and share it with colleagues.</span></a>
+      <a class="path" href="architects.html"><span class="path__title">I draw the processes</span><span class="path__sub">You draw the diagrams, keep the company structure up to date and share it with users.</span></a>
     </div>
   </section>
 
@@ -106,9 +106,9 @@
   <section class="x" id="draw" data-bg-side="left" data-bg="process">
     <div class="x__inner">
       <div>
-        <h2><svg class="mark" data-draw viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="11" pathLength="1"/></svg>Draw without being stopped</h2>
-        <p>Promodo marks BPMN mistakes and offers a fix, but never blocks drawing. Branches leave a gateway from its corners and lines go around steps; “Tidy up arrows” redraws the whole diagram in one step.</p>
-        <p>Have Bizagi files? Promodo opens them directly.</p>
+        <h2><svg class="mark" data-draw viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="11" pathLength="1"/></svg>Draw freely, fix as you go</h2>
+        <p>Promodo points out BPMN mistakes and offers a fix, but never stops you drawing. Arrows find their own way around steps, and “Tidy up arrows” redraws a whole diagram in one click.</p>
+        <p>Already have diagrams from another BPMN tool? Promodo opens .bpmn and .bpm files directly.</p>
       </div>
       <div class="x__demo" data-demo="check">
         <svg viewBox="0 0 420 140" role="img" aria-label="A diagram with two problems: a step without a name and a missing end."></svg>
@@ -122,7 +122,7 @@
     <div class="x__inner">
       <div>
         <h2><svg class="mark" data-draw viewBox="0 0 30 30" aria-hidden="true"><path d="M7 5h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" pathLength="1"/></svg>The whole company in one library</h2>
-        <p>Functions, roles, processes with owner and manager, IT systems. A lane in a diagram is a role in the company structure, so names match everywhere and everyone sees where they take part.</p>
+        <p>Functions, roles, processes with their owners and managers, IT systems. Each lane in a diagram is a role from the company structure, so names match everywhere and everyone can see where they take part.</p>
         <p>Pick a role to see its processes.</p>
       </div>
       <div class="x__demo" data-demo="org">
@@ -135,16 +135,16 @@
   <section class="x" id="share" data-bg-side="left" data-bg="share">
     <div class="x__inner">
       <div>
-        <h2><svg class="mark" data-draw viewBox="0 0 30 30" aria-hidden="true"><path d="M15 3L27 15L15 27L3 15Z" pathLength="1"/></svg>Share it – colleagues only view</h2>
-        <p>The simplest way is a shared folder in OneDrive or Google Drive: colleagues always see the latest version. Without one, a single <b>.promodo</b> file is enough, and it can be password-protected.</p>
-        <p>Only the architect who knows the company password can edit.</p>
+        <h2><svg class="mark" data-draw viewBox="0 0 30 30" aria-hidden="true"><path d="M15 3L27 15L15 27L3 15Z" pathLength="1"/></svg>Share it. Users can only view.</h2>
+        <p>The simplest way is a shared folder in OneDrive or Google Drive, so users always see the latest version. No shared folder? Send a single <b>.promodo</b> file, password-protected if you like.</p>
+        <p>Only the architect, who knows the company password, can make changes.</p>
       </div>
       <div class="x__demo" data-demo="share">
         <div class="seg sh-tabs" role="group" aria-label="How to share">
           <button type="button" data-share="folder" aria-pressed="true">Shared folder</button>
           <button type="button" data-share="file" aria-pressed="false">.promodo file</button>
         </div>
-        <svg viewBox="0 0 520 300" role="img" aria-label="The architect shares, three colleagues view."></svg>
+        <svg viewBox="0 0 520 300" role="img" aria-label="The architect shares, three users view."></svg>
         <p class="sh-note"></p>
       </div>
     </div>
@@ -154,8 +154,8 @@
     <div class="x__inner">
       <div>
         <h2><svg class="mark" data-draw viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="11" pathLength="1"/></svg>Everyone finds their own work</h2>
-        <p>Find information searches every process, step and role. A cashier types “kasa” (till) and sees where they take part. A click opens the diagram.</p>
-        <p>Try it on every step of the sample company.</p>
+        <p>Search covers every process, step and role. A cashier types “kasa” (till) and sees every place they take part. One click opens the diagram.</p>
+        <p>Try it on the whole sample company.</p>
       </div>
       <div class="x__demo" data-demo="find">
         <label class="fd-box"><span class="skip">Find information</span>
@@ -173,7 +173,7 @@
     <div class="x__inner">
       <div>
         <h2><svg class="mark" data-draw viewBox="0 0 30 30" aria-hidden="true"><path d="M7 5h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" pathLength="1"/></svg>One diagram, six formats</h2>
-        <p>Images for clients, vector PDF, Word documentation, the Process description in Excel following the client’s template, and a BPMN 2.0 file for other tools. Each carries company, version and date.</p>
+        <p>Images for presentations, vector PDF, Word documentation, a process description table in Excel, and a BPMN 2.0 file for other tools. Every file shows the company, version and date.</p>
       </div>
       <div class="x__demo" data-demo="export">
         <div class="ex-formats" role="group" aria-label="Format">
@@ -189,14 +189,14 @@
     </div>
   </section>
 
-  <section class="mig" id="bizagi" data-bg-dim data-bg="polyhedron">
+  <section class="mig" id="switch" data-bg-dim data-bg="polyhedron">
     <div class="mig__inner">
-      <h2><svg class="mark" data-draw viewBox="0 0 30 30" aria-hidden="true"><path d="M15 3L27 15L15 27L3 15Z" pathLength="1"/></svg>Moving from Bizagi?</h2>
-      <p class="quiet">What comes across, what isn’t there yet, and what’s different.</p>
+      <h2><svg class="mark" data-draw viewBox="0 0 30 30" aria-hidden="true"><path d="M15 3L27 15L15 27L3 15Z" pathLength="1"/></svg>Moving from another BPMN tool?</h2>
+      <p class="quiet">What comes with you, what isn’t there yet, and what’s different.</p>
       <div class="mig__cols">
         <div class="yes"><h3>Comes across</h3><ul><li>.bpm and .bpmn files open directly</li><li>Layout, lanes and element types</li><li>Conditions, data and artifacts</li></ul></div>
-        <div class="not"><h3>Not yet</h3><ul><li>Extended-attribute values</li><li>Automatic linking to the library – you link them yourself</li><li>Process simulation, or several people editing at once</li></ul></div>
-        <div class="diff"><h3>Different</h3><ul><li>Runs on Mac and Windows</li><li>Offline, no accounts</li><li>IT systems in ArchiMate notation next to the steps</li></ul></div>
+        <div class="not"><h3>Not yet</h3><ul><li>Custom attribute values</li><li>Automatic linking to the library – you link lanes and processes yourself</li><li>Process simulation, or several people editing at once</li></ul></div>
+        <div class="diff"><h3>What’s different</h3><ul><li>Runs on Mac and Windows</li><li>Works offline, no accounts</li><li>IT systems next to the steps, in ArchiMate notation</li></ul></div>
       </div>
     </div>
   </section>
@@ -205,7 +205,7 @@
     <div class="close__inner">
       <div>
         <h2>Download it and draw your first process</h2>
-        <p>Free, no account. Send colleagues <a href="viewers.html">this guide</a>, and yourself the <a href="architects.html">architect’s guide</a>.</p>
+        <p>Free, no account. Send users the <a href="viewers.html">viewer guide</a> and keep the <a href="architects.html">architect’s guide</a> for yourself.</p>
       </div>
       <div class="keys">
         <a class="key" data-file="mac-arm64" href="https://github.com/arislovas/promodo-app/releases/download/v0.4.1/Promodo-0.4.1-arm64.dmg"><span class="key__os">Mac, Apple</span><span class="key__meta">0.4.1, 143 MB</span></a>
@@ -236,7 +236,7 @@
     "details": { "a": ["Web shop", "Order", "Order confirmed"], "n": ["Email", "–", "Customer informed"], "b": ["Warehouse system", "Pick list", "Goods picked"], "c": ["Courier system", "Delivery note", "Parcel sent"], "d": ["Accounting system", "Invoice", "Invoice sent"] },
     "fields": { "who": "Responsible", "it": "IT system", "doc": "Document", "result": "Result" },
     "hintArchitect": "Drag a step – the arrows re-route. Drop it in another lane to change who is responsible.",
-    "hintColleague": "A colleague can only look. Click a step to see who is responsible and what they use.",
+    "hintColleague": "Users can only look. Click a step to see who is responsible and what they use.",
     "tidied": "Arrows tidied"
   },
   "scale": {
@@ -248,7 +248,7 @@
   },
   "check": { "step1": "Count the till", "step2": "Compare with report", "issue1": "Step without a name", "issue2": "Missing end event", "fix": "Fix", "fixed": "Fixed", "problem1": "1 problem", "problems": "{n} problems", "ok": "No problems" },
   "org": { "count": "“{role}” takes part in {n} processes" },
-  "share": { "architect": "Architect", "colleagues": "Colleagues", "folder": "Shared folder", "file": "Corner Store.promodo", "noteFolder": "Colleagues open the same folder and always see the latest version.", "noteFile": "One file in an email. A double-click installs it; it can be password-protected." },
+  "share": { "architect": "Architect", "colleagues": "Users", "folder": "Shared folder", "file": "Corner Store.promodo", "noteFolder": "Users open the same folder and always see the latest version.", "noteFile": "One file, sent by email. A double-click installs it. It can be password-protected." },
   "find": { "start": "kasa", "total": "{n} processes, steps and roles in the sample company", "found": "Found: {n}", "process": "Process", "role": "Role" },
   "export": { "png": "PNG, 2×", "svg": "SVG, vector", "stamp": "UAB „Kampo krautuvė“, version 3, 2026-10-16", "owner": "Owner", "manager": "Manager", "cols": ["No.", "Step", "Responsible"] }
 }</script>

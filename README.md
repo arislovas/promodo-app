@@ -10,7 +10,7 @@ Static site, no build step. Lithuanian at the root, English in `en/`.
 | Architect guide | `architektui.html` | `en/architects.html` |
 
 - `assets/site.css`: the look. Headings in Bricolage Grotesque, text in IBM Plex Sans (the app's font), the app's blue as the one accent, plus one blue band ("one process → the whole company").
-- `assets/demos.js`: the working demos on the home page. The live mini-Promodo (drag steps, Tidy up arrows, search, Architect/Colleague view), the zoom from one process to the whole company, and five chapter demos: check, company structure, sharing, search, export. Also the side "process line" navigation.
+- `assets/demos.js`: the working demos on the home page. The live mini-Promodo (drag steps, Tidy up arrows, search, Architect/User view), the zoom from one process to the whole company, and five chapter demos: check, company structure, sharing, search, export. Also the side "process line" navigation.
 - `assets/demo-data.js`: sample data, steps in flow order (read from the BPMN sequence flows), from the demo company UAB „Kampo krautuvė“ (12 functions, 32 processes, 204 steps, 40 roles). It is labelled as sample data on the page. Regenerate it if the demo library changes.
 - Each home page carries its demo wording in a `ui-text` JSON block (Lithuanian and English).
 - `assets/site.js`: the faint background drawing layer (`data-bg` per section, `data-bg-side="left"` mirrors it), guide step highlight, manual index, downloads from `versions.json`.
@@ -38,4 +38,4 @@ Open `index.html` in a browser. Everything works from the folder; only the versi
 ## Still open
 
 - Code signing with an Apple Developer ID and a Windows certificate would remove the security prompts on first opening.
-- The viewer guide tells colleagues to ask the person who prepared the processes; update it if the app gets the AI assistant on the viewer screens.
+- The viewer guide tells users to ask the person who prepared the processes; update it if the app gets the AI assistant on the viewer screens.
