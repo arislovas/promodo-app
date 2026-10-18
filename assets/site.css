@@ -457,3 +457,16 @@ section[id] { scroll-margin-top: 72px; }
 .ex-diagram { display: block; width: 100%; height: auto; }
 .ex-view .pd-label, .ex-view .pd-lane { font-size: 14px; }
 .ex-tag { top: -10px; bottom: auto; }
+
+/* Example companies (download page) */
+.ex { margin-top: 28px; background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 24px; }
+.ex h2 { font-size: 28px; margin-bottom: 8px; }
+.ex__lead { max-width: 66ch; color: var(--soft); margin: 0; }
+.ex__files { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 20px 0 6px; }
+.ex__file { display: flex; flex-direction: column; gap: 4px; padding: 16px 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); color: var(--ink); text-decoration: none; }
+.ex__file:hover { border-color: var(--blue); color: var(--ink); }
+.ex__name { font-weight: 600; font-size: 18px; line-height: 1.25; }
+.ex__what { font-size: 15.5px; color: var(--soft); }
+.ex__meta { margin-top: auto; padding-top: 8px; font-size: 14px; color: var(--blue); font-weight: 600; }
+.ex .install { max-width: 720px; }
+@media (max-width: 760px) { .ex__files { grid-template-columns: 1fr; } .ex { padding: 18px; }}
